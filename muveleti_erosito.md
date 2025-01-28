@@ -34,8 +34,8 @@
 
 ## 2. Feszültség követő
 - A feszültség követő egy olyan áramkör, amely a bemeneti feszültséget változtatás nélkül, de nagy árammal biztosítja a kimenet számára.
-- **Képlet**: 
- \( A_u = \frac{U_{ki}}{U_{be}} \)
+- **Képlet**:
+\( A_u = \frac{U_{ki}}{U_{be}} \)
 - **Műszaki rajz**:
   ![Feszültség követő](https://www.example.com/feszultseg_koveto_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
 
