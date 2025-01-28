@@ -24,3 +24,37 @@
 ## Összegzés
 - Az első műveleti erősítők, mint az uA702, fontos mérföldkövek voltak az analóg elektronikai eszközök fejlesztésében.
 - Az op-amp-ok azóta is az elektronikai rendszerek alapvető építőelemei maradtak, és alapvető szerepet játszanak a modern áramkörökben.
+
+# Műveleti Erősítők
+
+## 1. Komparátor
+- A komparátor egy olyan áramkör, amely két bemeneti feszültség összehasonlításával dönti el, hogy a kimeneti feszültség magas vagy alacsony legyen.
+- **Műszaki rajz**:
+  ![Komparátor](https://github.com/user-attachments/assets/b4fc105e-6bb9-4db4-a62a-871de22ad70b)
+
+## 2. Feszültség követő
+- A feszültség követő egy olyan áramkör, amely a bemeneti feszültséget változtatás nélkül, de nagy árammal biztosítja a kimenet számára.
+- **Képlet**: 
+  \[
+  A_u = \frac{U_{ki}}{U_{be}}
+  \]
+- **Műszaki rajz**:
+  ![Feszültség követő](https://www.example.com/feszultseg_koveto_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+
+## 3. Nem-invertáló műveleti erősítő
+- A nem-invertáló műveleti erősítő az a típus, amely nem fordítja meg a bemeneti jelet, hanem erősíti azt.
+- **Képlet**:
+  \[
+  A_u = 1 + \frac{R_{ki}}{R_{1be}}
+  \]
+- **Műszaki rajz**:
+  ![Nem-invertáló műveleti erősítő](https://www.example.com/nem_invertalo_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+
+## 4. Invertáló műveleti erősítő
+- Az invertáló műveleti erősítő az a típus, amely megfordítja a bemeneti jelet, tehát ha a bemenet pozitív, a kimenet negatív, és fordítva.
+- **Képlet**:
+  \[
+  A_u = \frac{R_v}{R_{be}}
+  \]
+- **Műszaki rajz**:
+  ![Invertáló műveleti erősítő](https://www.example.com/invertalo_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
