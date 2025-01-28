@@ -1,5 +1,5 @@
 # A Legelső Műveleti Erősítő
->img="![image](https://github.com/user-attachments/assets/b99bf05c-687d-4c8d-991a-d3465e5c26a0)"<
+>![image](https://github.com/user-attachments/assets/b99bf05c-687d-4c8d-991a-d3465e5c26a0)<
 ## Bevezetés
 - Az első műveleti erősítő (op-amp) története a 1960-as évekre nyúlik vissza.
 - A műveleti erősítők az elektronikai áramkörök alapvető elemei, amelyek számos alkalmazásban használatosak, mint például jelek erősítése, szűrés, analóg számítások.
