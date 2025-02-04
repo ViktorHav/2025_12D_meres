@@ -32,6 +32,7 @@ A TL071CN IC használatával készített feszültségkövető kapcsolás működ
 ## Megfigyelések a mérés során
 - A LabVIEW interfész segítségével generált szinuszos bemeneti jel frekvenciája és amplitúdója megegyezett a kimeneten mért értékekkel.
 - A hullámformák (scope kijelzőn láthatóan) torzításmentesen jelentek meg.
+
 ![Képkivágás](https://github.com/user-attachments/assets/b5a43aab-ed17-4d62-a7b2-0d3caf015189)
 
 
