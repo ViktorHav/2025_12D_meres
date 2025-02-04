@@ -1,9 +1,14 @@
 # Feszültségkövető kapcsolás TL071CN IC-vel
-![tl071cn-integralt-aramkor-470721-12215](https://github.com/user-attachments/assets/57b42e9c-16bb-4f87-8da3-28fb79509f6d)
+- A mérést végezte: Havas Viktor
+- A mérés helye: V3 labor
+- A mérés időpontja: 2025.02.04
 -------------------------------------------
 A TL071CN IC használatával készített feszültségkövető kapcsolás működése alapján az az egyik legfontosabb tulajdonsága, hogy az **input (bemeneti) jel értéke az output (kimeneti) jel értékeként jelenik meg**. Ez a funkció az áramkör alacsony impedanciájú kimenetét és magas impedanciájú bemenetét biztosítja, miközben az erősítő stabilan működik.
+![tl071cn-integralt-aramkor-470721-12215](https://github.com/user-attachments/assets/57b42e9c-16bb-4f87-8da3-28fb79509f6d)
 
 ## Feszültségkövető kapcsolás működési elve
+![IMG_20250204_115935](https://github.com/user-attachments/assets/c44451b3-f44c-4ff5-a299-e10565c98d89)
+-------------------------------------------
 - **IC felépítése és bekötése:** 
   - A TL071 egy alacsony zajszintű, JFET bemeneti operációs erősítő, amely lineáris működést tesz lehetővé.
   - Az **inverting (-)** bemenetet (2-es láb) közvetlenül az **outputhoz** (6-os láb) kötjük, ez biztosítja a negatív visszacsatolást.
@@ -26,6 +31,8 @@ A TL071CN IC használatával készített feszültségkövető kapcsolás működ
 ## Megfigyelések a mérés során
 - A LabVIEW interfész segítségével generált szinuszos bemeneti jel frekvenciája és amplitúdója megegyezett a kimeneten mért értékekkel.
 - A hullámformák (scope kijelzőn láthatóan) torzításmentesen jelentek meg.
+![Képkivágás](https://github.com/user-attachments/assets/b5a43aab-ed17-4d62-a7b2-0d3caf015189)
+
 
 ### Mérési eredmények
 1. **Breadboard bekötés:**
