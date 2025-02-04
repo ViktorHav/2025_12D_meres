@@ -4,6 +4,7 @@
 - A mérés időpontja: 2025.02.04
 -------------------------------------------
 A TL071CN IC használatával készített feszültségkövető kapcsolás működése alapján az az egyik legfontosabb tulajdonsága, hogy az **input (bemeneti) jel értéke az output (kimeneti) jel értékeként jelenik meg**. Ez a funkció az áramkör alacsony impedanciájú kimenetét és magas impedanciájú bemenetét biztosítja, miközben az erősítő stabilan működik.
+
 ![tl071cn-integralt-aramkor-470721-12215](https://github.com/user-attachments/assets/57b42e9c-16bb-4f87-8da3-28fb79509f6d)
 
 ## Feszültségkövető kapcsolás működési elve
