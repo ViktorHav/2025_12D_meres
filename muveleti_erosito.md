@@ -57,9 +57,8 @@ Az összeszerelt kapcsolás tartalmazott egy **invertáló műveleti erősítőt
 ### Számolt Erősítés:
 Az **erősítési tényező** (A) kiszámítható a következő képlettel:
 
-\[
-A = - \frac{Rf}{R1} = - \frac{12.2k}{3.91k} \approx -3.12
-\]
+A = Rf/R1 = 12.2k/3.91k = -3.12
+
 
 ## 6. Mérés eredményei:
 ![Mérési eredmények](meresi_eredmenyek.jpg)
