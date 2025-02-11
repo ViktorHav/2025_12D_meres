@@ -25,38 +25,53 @@
 - Az első műveleti erősítők, mint az uA702, fontos mérföldkövek voltak az analóg elektronikai eszközök fejlesztésében.
 - Az op-amp-ok azóta is az elektronikai rendszerek alapvető építőelemei maradtak, és alapvető szerepet játszanak a modern áramkörökben.
 
-# Műveleti Erősítők
+# Invertáló Műveleti Erősítő Mérési Jegyzőkönyv:
 
-## 1. Komparátor
-- A komparátor egy olyan áramkör, amely két bemeneti feszültség összehasonlításával dönti el, hogy a kimeneti feszültség magas vagy alacsony legyen.
-- **Műszaki rajz**:
-  ![Komparátor](https://github.com/user-attachments/assets/b4fc105e-6bb9-4db4-a62a-871de22ad70b)
+## 1. Bevezetés
+Ebben a jegyzőkönyvben egy invertáló műveleti erősítő (op-amp) kapcsolás vizsgálatát dokumentáljuk, amelyet **NI myDAQ** eszközzel és breadboarddal valósítottunk meg. A célunk a kimeneti feszültség mérése és az erősítési tényező meghatározása volt.
 
-# Műveleti Erősítők
+## 2. Kapcsolási Rajz
+![Kapcsolási rajz](kapcsolas_megvalositasa.jpg)
 
-## 1. Komparátor
-- A komparátor egy olyan áramkör, amely két bemeneti feszültség összehasonlításával dönti el, hogy a kimeneti feszültség magas vagy alacsony legyen.
-- **Műszaki rajz**:
-  ![Komparátor](https://www.example.com/komparator_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+## 3. Használt Eszközök
+- **NI myDAQ** méréstechnikai eszköz
+- **Breadboard**
+- **Műveleti erősítő IC** (pl. **LM741** vagy **TL081**)
+- **Ellenállások:**
+  - R1 = **3.91kΩ**
+  - Rf = **12.2kΩ**
+- **Tápegység:** ±9V (myDAQ-ból)
+- **Funkciógenerátor** (bemeneti jel)
+- **Oszcilloszkóp** (kimeneti feszültség mérése)
 
-## 2. Feszültség követő
-- A feszültség követő egy olyan áramkör, amely a bemeneti feszültséget változtatás nélkül, de nagy árammal biztosítja a kimenet számára.
-- **Képlet**:  
-  $$ A_u = \frac{U_{ki}}{U_{be}} $$
-- **Műszaki rajz**:
-  ![Feszültség követő](https://www.example.com/feszultseg_koveto_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+## 4. Mérési Elrendezés
+Az összeszerelt kapcsolás tartalmazott egy **invertáló műveleti erősítőt**, ahol az R1 ellenállás a bemenethez, az Rf pedig a visszacsatoláshoz csatlakozott. A bemeneti feszültséget a **NI myDAQ funkciógenerátora** szolgáltatta, míg a kimeneti feszültséget oszcilloszkóppal mértük.
 
-## 3. Nem-invertáló műveleti erősítő
-- A nem-invertáló műveleti erősítő az a típus, amely nem fordítja meg a bemeneti jelet, hanem erősíti azt.
-- **Képlet**:
-  $$ A_u = 1 + \frac{R_{ki}}{R_{1be}} $$
-- **Műszaki rajz**:
-  ![Nem-invertáló műveleti erősítő](https://www.example.com/nem_invertalo_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+## 5. Mérési Eredmények
+### Mért Ellenállásértékek
+| Ellenállás | Mért érték |
+|--------------|--------------|
+| R1          | 3.91 kΩ     |
+| Rf          | 12.2 kΩ     |
 
-## 4. Invertáló műveleti erősítő
-- Az invertáló műveleti erősítő az a típus, amely megfordítja a bemeneti jelet, tehát ha a bemenet pozitív, a kimenet negatív, és fordítva.
-- **Képlet**:
-  $$ A_u = \frac{R_v}{R_{be}} $$
-- **Műszaki rajz**:
-  ![Invertáló műveleti erősítő](https://www.example.com/invertalo_image.jpg) *(Példa link, cseréld ki a valós URL-re)*
+### Számolt Erősítés:
+Az **erősítési tényező** (A) kiszámítható a következő képlettel:
+
+\[
+A = - \frac{Rf}{R1} = - \frac{12.2k}{3.91k} \approx -3.12
+\]
+
+## 6. Mérés eredményei:
+![Mérési eredmények](meresi_eredmenyek.jpg)
+
+## 7. Következtetések
+- Az invertáló műveleti erősítő az elvárt módon viselkedett, a bemeneti jelhez képest **fázisban 180°-kal eltolva** jelent meg a kimeneten.
+- Az erősítés a tervezett **-3.12** körüli értéket mutatta, ami megfelel az elvártaknak.
+- Az esetleges eltérések hibaforrásai lehetnek:
+  - Ellenállások tűréshatárai
+  - MyDAQ funkciógenerátor beállításai
+  - Kapcsolási vezetékek ellenállása
+
+## 8. Konklúzió
+A mérés igazolta, hogy az **invertáló műveleti erősítő megfelelően működött**, az elvárt erősítést biztosítva. További fejlesztési lehetőségek közé tartozik a pontosabb ellenállások használata, illetve a bemeneti jel további analízise eltérő frekvenciáknál.
 
