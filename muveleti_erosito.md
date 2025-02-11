@@ -59,7 +59,7 @@ Az összeszerelt kapcsolás tartalmazott egy **invertáló műveleti erősítőt
 ### Számolt Erősítés:
 Az **erősítési tényező** (Au) kiszámítható a következő képlettel:
 
-- Au = Rf/R1 = 12.2k/3.91k = 3.12
+$$ A = - \frac{Rf}{R1} = - \frac{12.2k}{3.91k} \approx 3.12 $$
 - Audb = 20 x log(Au) = 9,88
 
 
