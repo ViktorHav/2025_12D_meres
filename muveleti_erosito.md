@@ -30,7 +30,9 @@
 ## 1. Bevezetés
 Ebben a jegyzőkönyvben egy invertáló műveleti erősítő (op-amp) kapcsolás vizsgálatát dokumentáljuk, amelyet **NI myDAQ** eszközzel és breadboarddal valósítottunk meg. A célunk a kimeneti feszültség mérése és az erősítési tényező meghatározása volt.
 
-## 2. Kapcsolási rajz megvalósítása
+## 2. Kapcsolási rajz
+![image](https://github.com/user-attachments/assets/dec2337d-c865-42f3-8fb2-358f1b41cf1d)
+- Megvalósítása:
 ![IMG_6402](https://github.com/user-attachments/assets/baaaf083-c988-4060-b274-397b04d80114)
 
 ## 3. Használt Eszközök
