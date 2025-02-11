@@ -57,9 +57,10 @@ Az összeszerelt kapcsolás tartalmazott egy **invertáló műveleti erősítőt
 | Rf          | 12.2 kΩ     |
 
 ### Számolt Erősítés:
-Az **erősítési tényező** (A) kiszámítható a következő képlettel:
+Az **erősítési tényező** (Au) kiszámítható a következő képlettel:
 
-A = Rf/R1 = 12.2k/3.91k = -3.12
+Au = Rf/R1 = 12.2k/3.91k = 3.12
+Audb = 20 x log(Au) = 9,88
 
 
 ## 6. Mérés eredményei
@@ -67,7 +68,7 @@ A = Rf/R1 = 12.2k/3.91k = -3.12
 
 ## 7. Következtetések
 - Az invertáló műveleti erősítő az elvárt módon viselkedett, a bemeneti jelhez képest **fázisban 180°-kal eltolva** jelent meg a kimeneten.
-- Az erősítés a tervezett **-3.12** körüli értéket mutatta, ami megfelel az elvártaknak.
+- Az erősítés a tervezett **3.12** körüli értéket mutatta, ami megfelel az elvártaknak.
 - Az esetleges eltérések hibaforrásai lehetnek:
   - Ellenállások tűréshatárai
   - MyDAQ funkciógenerátor beállításai
