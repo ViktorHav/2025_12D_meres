@@ -42,7 +42,7 @@ Ebben a jegyzőkönyvben egy invertáló műveleti erősítő (op-amp) kapcsolá
 - **Ellenállások:**
   - R1 = **3.91kΩ**
   - Rf = **12.2kΩ**
-- **Tápegység:** ±9V (myDAQ-ból)
+- **Tápegység:** ±15V (myDAQ-ból)
 - **Funkciógenerátor** (bemeneti jel)
 - **Oszcilloszkóp** (kimeneti feszültség mérése)
 
