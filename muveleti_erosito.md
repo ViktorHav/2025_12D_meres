@@ -25,13 +25,13 @@
 - Az első műveleti erősítők, mint az uA702, fontos mérföldkövek voltak az analóg elektronikai eszközök fejlesztésében.
 - Az op-amp-ok azóta is az elektronikai rendszerek alapvető építőelemei maradtak, és alapvető szerepet játszanak a modern áramkörökben.
 
-# Invertáló Műveleti Erősítő Mérési Jegyzőkönyv:
+# Invertáló Műveleti Erősítő Mérési Jegyzőkönyv
 
 ## 1. Bevezetés
 Ebben a jegyzőkönyvben egy invertáló műveleti erősítő (op-amp) kapcsolás vizsgálatát dokumentáljuk, amelyet **NI myDAQ** eszközzel és breadboarddal valósítottunk meg. A célunk a kimeneti feszültség mérése és az erősítési tényező meghatározása volt.
 
-## 2. Kapcsolási Rajz
-![Kapcsolási rajz](kapcsolas_megvalositasa.jpg)
+## 2. Kapcsolási rajz megvalósítása
+![IMG_6402](https://github.com/user-attachments/assets/baaaf083-c988-4060-b274-397b04d80114)
 
 ## 3. Használt Eszközök
 - **NI myDAQ** méréstechnikai eszköz
@@ -60,8 +60,8 @@ Az **erősítési tényező** (A) kiszámítható a következő képlettel:
 A = Rf/R1 = 12.2k/3.91k = -3.12
 
 
-## 6. Mérés eredményei:
-![Mérési eredmények](meresi_eredmenyek.jpg)
+## 6. Mérés eredményei
+![Képernyőkép 2025-02-11 120001](https://github.com/user-attachments/assets/5161573e-697e-47f7-b0f8-5c9a9824c823)
 
 ## 7. Következtetések
 - Az invertáló műveleti erősítő az elvárt módon viselkedett, a bemeneti jelhez képest **fázisban 180°-kal eltolva** jelent meg a kimeneten.
