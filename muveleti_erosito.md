@@ -36,7 +36,7 @@ Ebben a jegyzőkönyvben egy invertáló műveleti erősítő (op-amp) kapcsolá
 ## 3. Használt Eszközök
 - **NI myDAQ** méréstechnikai eszköz
 - **Breadboard**
-- **Műveleti erősítő IC** (pl. **LM741** vagy **TL081**)
+- **Műveleti erősítő IC** (TL071)
 - **Ellenállások:**
   - R1 = **3.91kΩ**
   - Rf = **12.2kΩ**
