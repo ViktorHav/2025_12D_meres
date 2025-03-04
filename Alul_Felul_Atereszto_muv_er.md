@@ -32,6 +32,10 @@ A számított és mért frekvenciaváltás közötti eltérés minimális (99,89
 
 ## 2. Aluláteresztő szűrő
 
+**Kapcsolás:**
+![IMG_6402 (1)](https://github.com/user-attachments/assets/802686e9-32d8-40b3-a422-690adb0b230f)
+
+
 **Számított paraméterek:**
 - **Frekvenciaváltás (fh):** 1326 Hz
 - **Erősítés (Au):** 3,07
@@ -41,6 +45,9 @@ A számított és mért frekvenciaváltás közötti eltérés minimális (99,89
 - **Frekvenciaváltás (fh):** 1380 Hz
 - **Erősítés (Au):** 3,07
 - **Erősítés dB-ben (AudB):** 9,73 dB
+
+![Alul](https://github.com/user-attachments/assets/02f666df-6cd8-4fc4-a080-23d1d891ba3b)
+
 
 **Megjegyzés:**  
 Az aluláteresztő szűrő esetében a számított és mért frekvenciaváltás közötti eltérés 54 Hz, míg az erősítés és dB-ben kifejezett értékek nagyon közel állnak egymáshoz.
