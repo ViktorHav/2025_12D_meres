@@ -25,6 +25,9 @@ A mért és számított paraméterek összehasonlítása felül- és aluláteres
 - **Erősítés (Au):** 3,07
 - **Erősítés dB-ben (AudB):** 9,54 dB
 
+![Névtelen](https://github.com/user-attachments/assets/add9845f-d8d1-4000-a084-830b42f8086e)
+
+
 **Megjegyzés:**  
 A számított és mért frekvenciaváltás közötti eltérés minimális (99,89 Hz), az erősítés és az erősítés dB-ben kifejezett értékek szinte megegyeznek.
 
