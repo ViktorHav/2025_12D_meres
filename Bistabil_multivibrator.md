@@ -19,9 +19,11 @@ A bistabil multivibrátor egy olyan kapcsolás, amely két stabil állapottal re
   - 5V a 8-as lábra kötve
 
 ## Kapcsolási rajz
+![555-Timer-Bistable-Mode](https://github.com/user-attachments/assets/cc54a5f4-df86-441d-8549-823a434ff563)
 
 
 ## Kapcsolási rajz megvalóstítása myDAQ segítségével
+![IMG_20250311_123327](https://github.com/user-attachments/assets/be8c4ecd-96c3-4505-a462-d2627f429f3b)
 
 
 ## Működés leírása
