@@ -21,6 +21,9 @@ A bistabil multivibrátor egy olyan kapcsolás, amely két stabil állapottal re
 ## Kapcsolási rajz
 
 
+## Kapcsolási rajz megvalóstítása myDAQ segítségével
+
+
 ## Működés leírása
 A bistabil multivibrátor két nyomógomb segítségével vezérli a LED állapotát:
 - Ha az **első gombot** lenyomjuk, a LED **bekapcsol**.
