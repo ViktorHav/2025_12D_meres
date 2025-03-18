@@ -35,11 +35,10 @@ A kísérlet célja egy feszültségvezérelt oszcillátor (VCO) megépítése �
 ---
 
 ### **4. Megfigyelések és eredmények**
--Véletlenül a ledet rossz helyre kötöttem és a potenciométérhez kötöttem egy plusz 100k-s ellenállást, a hibámat kijavíottam legközelebb jobban oda figyelek rá!
+- Véletlenül a ledet rossz helyre kötöttem és a potenciométérhez kötöttem egy plusz 100k-s ellenállást, a hibámat kijavíottam legközelebb jobban oda figyelek rá!
 - A LED villogásának sebessége a bemeneti feszültségtől függően változott.
 - Alacsonyabb feszültségnél a villogás lassabb volt, magasabb feszültségnél pedig gyorsabb.
 - Az oszcillátor stabilan működött a megadott táp- és vezérlő feszültségekkel.
-- A MyDAQ segítségével a jelek pontosan mérhetők és elemezhetők voltak.
 
   ![IMG_20250318_132045](https://github.com/user-attachments/assets/88a84928-3455-4153-ac08-20a4f099a196)
 
