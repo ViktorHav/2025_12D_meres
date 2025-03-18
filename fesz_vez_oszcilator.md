@@ -1,9 +1,9 @@
 **Jegyzőkönyv**  
 
-**Kísérlet címe:** Feszültségvezérelt oszcillátor (VCO) vizsgálata MyDAQ rendszerrel  
-**Dátum:** 2025.03.18 
-**Kísérlet helyszíne:** V3/Lab 
-**Kísérletet végezte:** Havas Viktor
+- **Kísérlet címe:** Feszültségvezérelt oszcillátor (VCO) vizsgálata MyDAQ rendszerrel  
+- **Dátum:** 2025.03.18 
+- **Kísérlet helyszíne:** V3/Lab 
+- **Kísérletet végezte:** Havas Viktor
 
 ---
 
@@ -39,6 +39,7 @@ A kísérlet célja egy feszültségvezérelt oszcillátor (VCO) megépítése �
 - Alacsonyabb feszültségnél a villogás lassabb volt, magasabb feszültségnél pedig gyorsabb.
 - Az oszcillátor stabilan működött a megadott táp- és vezérlő feszültségekkel.
 - A MyDAQ segítségével a jelek pontosan mérhetők és elemezhetők voltak.
+
   ![IMG_20250318_132045](https://github.com/user-attachments/assets/88a84928-3455-4153-ac08-20a4f099a196)
 
 ---
